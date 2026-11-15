@@ -1,0 +1,15 @@
+{
+  "dataset_name": "Synthetic Academic Certificate Benchmark Dataset",
+  "dataset_type": "synthetic_testing_benchmark",
+  "description": "Reproducible benchmark dataset containing synthetic academic marks cards, transcripts, and degree certificates with controlled authentic and tampered variants. Designed for model training, grouped cross-validation, and explainable AI evaluation.",
+  "total_images": 160,
+  "total_source_groups": 40,
+  "images_per_group": 4,
+  "class_counts": {
+    "authentic": 80,
+    "tampered": 80
+  },
+  "disjoint_group_guarantee": true,
+  "seed": 42,
+  "ethical_disclosure": "This dataset contains solely synthetically generated document layouts with fictitious student names, institutions, and grades. It contains no real student PII and is explicitly labeled as a research benchmark."
+}

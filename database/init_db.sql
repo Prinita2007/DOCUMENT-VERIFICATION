@@ -1,0 +1,3 @@
+-- Use Alembic for repeatable, non-destructive schema changes:
+--   .\backend\venv\Scripts\python.exe .\database\init_db.py
+-- This file is intentionally informational; it does not drop or overwrite tables.
